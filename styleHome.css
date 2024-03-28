@@ -1,0 +1,314 @@
+.product-container {
+   display: flex;
+}
+.product-image {
+   width: 50%;
+}
+.product-description {
+   width: 50%;
+}
+.add-to-order {
+   margin-top: 10px;
+}
+/* ##################################################################################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   background-color: #17d193cc;
+   color: #fff;
+   padding: 10px 0;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   color: #026b25;
+   text-decoration: none;
+   font-size: 1.5em;
+}
+
+.logo span {
+   font-weight: bold;
+}
+
+.navigation a {
+   color: #fff;
+   text-decoration: none;
+   margin-right: 20px;
+   font-size: 1.2em;
+}
+
+.icons a {
+   color: #fff;
+   text-decoration: none;
+   margin-right: 30px;
+   font-size: 1.2em;
+}
+/* ############################################################################################################### */
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Arial', sans-serif;
+}
+body {
+   background-color: #04883b;
+}
+.container {
+   width: 80%;
+   margin: 2 auto;
+}
+header {
+   background-color: #69f096;
+   color: #fff;
+   padding: 10px 0;
+}
+
+/* Home section styles */
+.home-bg {
+   color: #fff;
+   text-align: center;
+   padding: 100px 0;
+}
+
+.home h3 {
+   font-size: 24px;
+   margin-top: 20px;
+}
+
+.home p {
+   font-size: 16px;
+   margin: 20px 0;
+}
+
+.btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #7ceca7;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+/* Home category styles */
+.home-category {
+   background-color: #fff;
+   padding: 40px 0;
+}
+
+/* Products section styles */
+.products {
+   background-color: #04883b;
+   padding: 40px 0;
+}
+
+.box-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.box {
+   background-color: #fff;
+   border: 1px solid #04883b;
+   border-radius: 5px;
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+}
+.qty {
+   width: 50px;
+   padding: 5px;
+}
+/* ####################################################################################################################3 */
+footer {
+   background-color: #09c26ccc;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
+
+.footer-logo img {
+   border-radius: 50%;
+}
+
+.contact-info {
+   margin: 10px 0;
+}
+
+.cont {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   margin-top: 10px;
+   display: inline-block;
+   border: 1px solid #fff;
+   padding: 8px 15px;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+a:hover {
+   background-color: #fff;
+   color: #09c26ccc;
+}
+/* #################### Search Product#################################### */
+form {
+   margin-bottom: 15px;
+}
+label {
+   display: block;
+   margin-bottom: 10px;
+}
+input {
+   margin-bottom: 15px;
+}
+
+table {
+   width: 80%;
+   border-collapse: separate;
+   margin-top: 15px;
+}
+thead {
+   background-color: #48cc84;
+}
+th, td {
+   padding: 10px;
+   border: 1px solid #5ea377;
+   text-align: left;
+}
+#shortlist-btn {
+   background-color: #77f5a5;
+   color: rgb(7, 1, 1);
+   padding: 10px 18px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   border-radius: 10px;
+}
+th a {
+   text-decoration: none;
+   color: #000000;
+}
+th a:hover {
+   color: #09fa11;
+}
+/* ############################################cart############################################# */
+/* Shopping cart section styles */
+.shopping-cart {
+   background-color: #fff;
+   margin: 20px 0;
+   padding: 20px;
+}
+
+.title {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.box-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.box {
+   border: 1px solid #ddd;
+   margin: 10px;
+   padding: 10px;
+   position: relative;
+}
+
+.box img {
+   max-width: 100%;
+   height: auto;
+}
+
+.productName {
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+.price {
+   color: #ff6600;
+   font-weight: bold;
+   margin-top: 5px;
+}
+
+.flex-btn {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+.qty {
+   width: 50px;
+   padding: 5px;
+}
+
+.option-btn {
+   background-color: #04883b;
+   color: #fff;
+   border: none;
+   padding: 5px 10px;
+   cursor: pointer;
+}
+
+.sub-total {
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+.cart-total {
+   margin-top: 20px;
+   text-align: right;
+}
+
+.cart-total p {
+   font-weight: bold;
+}
+
+.option-btn, .delete-btn, .btn {
+   display: inline-block;
+   margin-top: 10px;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #fff;
+   cursor: pointer;
+}
+
+.option-btn {
+   background-color: #04883b;
+}
+
+.delete-btn {
+   background-color: #cc0000;
+}
+
+.disabled {
+   pointer-events: none;
+   opacity: 0.5;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+   .box {
+       width: 100%;
+   }
+}
